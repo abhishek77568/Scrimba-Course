@@ -1,0 +1,110 @@
+body{
+    margin: 10px;
+    font-family: "Noto Sans", sans-serif; 
+    background-color: #ffffcb;
+    
+}
+.heading{
+    text-align: center;
+    width: auto;
+    font-style: italic;
+    background-color: #9a0002;
+    color: #ffffcb;
+    border-bottom: 13px solid #cd0603;
+    letter-spacing: 10px;
+    padding: 5px;
+}
+.text2{
+    width: auto;
+    background-color: #009901;
+    color: white;
+    padding:4px 10px;
+    
+}
+
+.para{
+    font-size: 12px;
+    
+}
+
+.text3{
+    width: auto;
+    background-color: #009901;
+    color: white;
+    padding: 4px 10px;
+}
+.list{
+    color:#610102 ;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.name_company{
+    width: auto;
+    background-color: #009901;
+    color: white;
+    padding: 4px 10px;
+}
+
+.cmp_link{
+    text-decoration: none;
+    color: #bf149a;
+    
+}
+
+.google_text{
+    width: auto;
+    background-color: #009901;
+    color: white;
+    padding: 4px 10px;
+}
+
+.image{
+    width: 170px;
+    height: 70px;
+    
+    border: 3px dotted gray;
+}
+
+.text5{
+    color: grey;
+}
+table{
+    background-color:#b7b6b6;
+    font-size: 12px;
+}
+
+table td{
+    border: 1px double black;
+}
+
+.text6{
+    color: grey;
+}
+.t1{
+    font-size: 13px;
+}
+
+.name{
+    font-size: 13px;
+}
+
+.text7{
+    font-size: 13px;
+}
+.text-area{
+
+overflow: scroll;
+overflow-x: hidden;
+}
+
+.female{
+    margin-top: 20px;
+}
+
+.submit-btn{
+    margin-top: 15px;
+    background-color: rgb(187, 184, 184);
+    font-size: 12px;
+    padding: 3px 8px;
+}
