@@ -3,7 +3,7 @@
     margin: 10px;
     display: grid;
     width: auto;
-    height: 650px;
+    height: 100vh;
     background-color:white;
     grid-template-columns:repeat(3, 1fr);
     grid-template-rows:1fr 3fr 3fr 2fr;
@@ -76,6 +76,34 @@
     place-items: center;
     background-color: #755CDB;
     
+}
+
+@media only screen and (max-width : 550px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr 3fr 2fr;
+        grid-template-areas:"header" "sidebar" "content1" "content2" "content3" "footer" ;
+        
+    }
+    #item1{
+        grid-area: header;
+    }
+    #item2{
+        grid-area: sidebar;
+    }
+    #item3{
+        grid-area: content1;
+    }
+    #item4{
+        grid-area: content2;
+    }
+    #item5{
+        grid-area: content3;
+    }
+    #item6{
+        grid-area: footer;
+    }    
 }
 
 
