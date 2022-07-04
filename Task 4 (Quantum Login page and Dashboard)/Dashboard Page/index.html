@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/16697a764b01cdcc691b05f001046bc3?family=Museo+Sans+500" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <header>
-        <div class="header_bg_img">
+        <div class="header_bg_img" role="image" aria-label="Quantum page background image with logo">
             <img class="header_img" src="images/header pattern image.png" alt="header background image"/>
-            <img class="header_logo_img" src="images/logo used in header.svg" alt="Quantum logo"/>
-            <nav class="nav">
+            <img class="header_logo_img" aria-label="Quantum logo" src="images/logo used in header.svg" alt="Quantum logo"/>
+            <nav class="nav" role="navigation">
                 <a href="#" class="nav_btn btn1">DASHBOARD</a>
                 <a href="#" class="nav_btn btn2">CONTENT</a>
                 <a href="#" class="nav_btn btn3">USERS</a>
@@ -24,7 +25,7 @@
 
 
             </nav>
-            <nav class="nav2">
+            <nav class="nav2" role="navigation">
                 <div class="alert">
                     <img class="alert_img" src="images/icons/alerts.svg" alt="alert"/>
 
@@ -64,8 +65,8 @@
         <div class="sorting_div">
             <div class="showing_courses_text">Showing 4 of 4 courses</div>
             <div class="sort_by_text">Sort By:</div>
-            <select class="select_course_name" >
-                <option name="course_name" id="option_course_name" class="option_course_name" value="CA">Course Name</option>
+            <select class="select_course_name" role="presentation">
+                <option name="course_name" aria-selected="true" id="option_course_name" class="option_course_name" value="CA">Course Name</option>
             </select>
             <img class="sort_icon"src="images/icons/sort.svg" alt="Sort Icon"/>
 
@@ -130,6 +131,7 @@
 
     <div class="div3">
     <div class="course_card">
+            <span class="expired tag">EXPIRED</span>
             <div class="course_detail">
                 <img class="course_img"src="images/images/imageMask.svg" />
                 <div class="course_card_detail">
