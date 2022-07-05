@@ -89,7 +89,22 @@ header{
     width: 28px;
     height: 33px;
     display: flex;
+    position: relative;
 
+}
+.number_of_notification{
+    position: absolute;
+    top: 0px;
+    right:0px;
+    width: 17px;
+    height: 21px;
+    background-color: #2A7FF3;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 500;
+    border-radius: 50%;
+    letter-spacing: -0.5px;
 }
 .alert_img{
     margin-top: 5px;
