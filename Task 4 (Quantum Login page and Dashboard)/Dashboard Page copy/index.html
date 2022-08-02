@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/16697a764b01cdcc691b05f001046bc3?family=Museo+Sans+500" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div class="header_bg_img" role="image" aria-label="Quantum page background image with logo">
+            <img class="header_img" src="images/header pattern image.png" alt="header background image"/>
+            <img class="header_logo_img" aria-label="Quantum logo" src="images/logo used in header.svg" alt="Quantum logo"/>
+            <nav class="nav" role="navigation">
+                <a href="#" class="nav_btn btn1">DASHBOARD</a>
+                <a href="#" class="nav_btn btn2">CONTENT</a>
+                <a href="#" class="nav_btn btn3">USERS</a>
+                <a href="#" class="nav_btn btn4">REPORTS</a>
+                <a href="#" class="nav_btn btn5">ADMIN</a>
+
+
+            </nav>
+            <nav class="nav2" role="navigation">
+                <div class="alert">
+                    <img class="alert_img" src="images/icons/alerts.svg" alt="alert"/>
+
+                </div>
+                <div class="announcement">
+                    <!-- <img class="announcement_icon" src="images/icons/announcements.svg" alt="announcement icon"/> -->
+                    <svg class="announcement_icon"xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <path id="Forma_1" data-name="Forma 1" d="M1076.936,181.974a1.242,1.242,0,0,1-.92-.778l-2.513-6.7h-.379a.625.625,0,0,1-.625-.626v-.625h-1.876a.625.625,0,0,1-.625-.625v-3.75a.625.625,0,0,1,.625-.625h1.876v-.626a.625.625,0,0,1,.625-.625h6.228c.217-.01.431-.044.647-.064v7.628c-.214-.021-.427-.054-.642-.064h-1.66l2.1,4.2a1.247,1.247,0,0,1-.229,1.446l-1.5,1.489a1.215,1.215,0,0,1-.879.37A1.25,1.25,0,0,1,1076.936,181.974Zm12.183-2.53c-.019-.009-.033-.025-.052-.036a.6.6,0,0,1-.155-.121c-.006-.007-.015-.01-.021-.016a13.146,13.146,0,0,0-7.642-4.527v-7.988a13.148,13.148,0,0,0,7.642-4.528c.005-.005.013-.006.018-.012a.621.621,0,0,1,.274-.177.461.461,0,0,1,.07-.014.561.561,0,0,1,.122-.025.627.627,0,0,1,.175.035.04.04,0,0,0,.018,0,.042.042,0,0,1,.018,0s.006.006.01.007a.62.62,0,0,1,.262.2.414.414,0,0,1,.04.059.6.6,0,0,1,.1.322v16.249a.6.6,0,0,1-.1.322c-.014.022-.025.039-.04.059a.6.6,0,0,1-.262.2s-.006.006-.01.008a.628.628,0,0,1-.466-.019Z" transform="translate(-1070 -162)" fill="#3fd28b"/>
+                    </svg>
+                </div>
+                <div class="profile">
+                    <img class="profile_icon" src="images/icons/account_circle.svg" alt="profile icon"/>
+
+                </div>
+            </nav>
+            
+            <div class="hamburger_menu_container"><img class="hamburger_menu_icon" src="images/icons/hamburger-menu.svg" alt="profile icon"/></div>
+                <div class="hamburger_hover_container">
+                    <div class="hamburger_menu_item"><a class="link" href="#">DASHBOARD</a> <span class="down_arrow">^</span></div>
+                    <div class="hamburger_menu_item" id="link2"><a class="link" href="#">CONTENT</a> <span class="down_arrow">^</span></div>
+                    <div class="hamburger_menu_item" id="link3"><a class="link" id="course_catlog_link"href="#">COURSE CATLOG</a></div>
+                    <div class="hamburger_menu_item"><a class="link" href="#">USERS</a> <span class="down_arrow">^</span></div>
+                    <div class="hamburger_menu_item"><a class="link" href="#">REPORT</a> <span class="down_arrow">^</span></div>
+                    <div class="hamburger_menu_item"><a class="link" href="#">ADMIN</a> <span class="down_arrow">^</span></div>
+                </div>
+
+        </div>
+        <div class="announce_hover">
+        <div class="announcement_hover_container">
+            <div class="announcements_content_wrapper">
+                
+
+            </div>
+
+                
+            
+            <!-- <div class="announcements_content_wrapper">
+                <div class="announcements_content_checked" >
+                    <div class="announcements_content_checked_container">
+                        <div class="PA_wrapper_checked">
+                            <div class="PA"><span class="font_gray"> PA:</span> <span class="PA_name"><b>Wilson Kumar</b></span></div>
+                            <div class="checked_icon_wrapper"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                                fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 
+                                9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 
+                                2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"/>
+                                </svg></span><span><div class="checked_icon_minus"></div></span></div>
+                        </div>
+                        <div class="announcements_text">
+                            <b>No classes will be held on 21st Nov</b>
+                            <span style="display:none;"class="announcement_course_div"><div class="announcement_content_course_wrapper font_gray">Course: <span class="announcement_content_course">gghghh</span></span></div>
+                        </div>       
+                        
+                        <div class="file_attached_and_announcement_time_wrapper font_gray">
+                            <div style="display:block"class="file_attached ">&#128206; <span class="no_of_file_attached">2</span> file are attached</div>
+                            <div class="announcement_date_and_time "><span class="announcement_date">15-Sep-2018</span> at <span class="announcement_time">07:21 pm</span></div>
+                        </div>
+                    </div> -->
+                <!-- <div class="announcements_content_unchecked" id="announcement_2">
+                    <div class="announcements_content_unchecked_container">
+                        <div class="PA_wrapper_unchecked">
+                            <div class="PA"><span class="font_gray"> PA: </span><b>Wilson Kumar</b></div>
+                            <div class="unchecked_icon_wrapper"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                                fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                <path d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 
+                                9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 
+                                2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"/>
+                                </svg></span><span><div class="unchecked_icon_minus"></div></span></div>
+                        </div>
+                        <div class="announcements_text">
+                            No classes will be held on 21st Nov 
+                            <div class="announcement_content_course_wrapper font_gray">Course: <span class="announcement_content_course">gghghh</span></div>
+                        </div>       
+
+                        <div class="file_attached_and_announcement_time_wrapper font_gray">
+                            <div class="file_attached "> &#128206; <span class="no_of_file_attached">2</span> file are attached</div>
+                            <div class="announcement_date_and_time "><span class="announcement_date">15-Sep-2018</span> at <span class="announcement_time">07:21 pm</span></div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>-->
+            <div class="announcement_hover_showAll_button">
+                <a class="announcement_showall_button" href="#">SHOW ALL</a>
+                <span class="partition_line">|</span>
+                <a class="announcement_createNew_button" href="#">CREATE NEW</a>
+            </div>
+        </div> 
+    </div>
+
+    </header>
+    <main>
+        
+        <div class="course_div">
+            <div class="courses_wrapper">
+                <div class="course">
+                    <div class="course_wrapper">
+                        <img class="courses_icon"src="images/icons/courses.svg" alt="Courses icon" />
+                        <div class="no_of_course">4</div>
+                        <div class="course_text">Courses</div>
+                    </div>
+                </div>
+                <div class="classes">
+                    
+                        <div class="classes_wrapper">
+                            <img class="classes_icon"src="images/icons/classes.svg" alt="Classes icon"/>
+                            <div class="no_of_class">4</div>
+                            <div class="classes_text">Classes</div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="sorting_div">
+            <div class="showing_courses_text">Showing 4 of 4 courses</div>
+            <div class="sort_by_text">Sort By:</div>
+            <select class="select_course_name" role="presentation">
+                <option name="course_name" aria-selected="true" id="option_course_name" class="option_course_name" value="CA">Course Name</option>
+            </select>
+            <img class="sort_icon"src="images/icons/sort.svg" alt="Sort Icon"/>
+
+        </div >
+        <div class="partition"></div>
+        <div class="main_content"> 
+            
+        <div class="course_card">
+            <div class="course_detail">
+                <img class="course_img"src="images/images/imageMask-1.svg" alt="Acceleration Course image" />
+                <div class="course_card_detail">
+                    <div class="course_name">Acceleration</div>
+                    <div class="grade_detail"> <span class="card_subject_name">Physics</span>
+                        <span class="seperate_partition">|</span>
+                        <span class="grade">Grade <span class="no_of_grade">7</span></span>
+                        <span class="grade_increment">+2</span></div>
+                    <div class="course_distribution_detail course_card0"><span class="no_of_unit">4</span> Units<span class="no_of_lesson">18</span> Lessons<span class="no_of_topic">24</span> Topics</div>
+                    <select class="select_class_detail" >
+                        <option name="class_name_option" id="option_class_name" class="option_class_name" value="ClassB">Mr. Frank's Class B</option>
+                    </select>
+                    <p class="no_of_student_and_validity_wrapper"><span class="student"><span class="no_of_student">50</span> Students</span> <span class="course_validity"></span><span class="seperate_partition">|</span>21-Jan-2020 - 21-Aug-2020</span></p> 
+                </div>           
+            </div>
+            <div class="star_icon_wrapper">
+                <img class="star_img"src="images/icons/favourite.svg" alt="favourite icon" />
+            </div>
+            <div class="card_footer_icon">
+                <img class="card_footer_preview_icon"src="images/icons/preview.svg" alt="preview icon" />
+                <img class="card_footer_manage_course_icon"src="images/icons/manage%20course.svg" alt="manage course icon" />
+                <img class="card_footer_grading_icon"src="images/icons/grade%20submissions.svg"  alt="grade submission icon"/>
+                <img class="card_footer_report_icon"src="images/icons/reports.svg" alt="report icon"/>
+
+            </div>
+        </div> 
+            
+        
+        
+    </div>
+</div>
+
+        
+    </main>
+    <footer>
+        <div class="footer_container">
+            <a class="about_link" href="#">About</a>
+            <div class="vertical_line_partition"></div>
+            <a class="contact_us_link" href="#">Contact Us</a>
+        </div>
+        <div class="footer_logo_copyright_container">
+        <div class="footer_copyright_wrapper">
+            <img class="footer_quantum_logo"src="images/logo used in footer.svg" />
+            <div class="vertical_line_partition_footer"></div>
+            <a class="copyright_link" href="#">Copyright &#169; 2021-2022</a>
+            <a class="zeus_content" href="#">Zeus Systems Pvt. Ltd.</a>
+            <a class="All_content_reserved" href="#">All rights reserved.</a>
+        </div>
+        </div>
+
+    </footer>
+    <script src="./dist/course_card.js"></script>
+    <script src="./dist/announcements.js"></script>
+    <script src="./dist/main.js"></script>
+
+    <!-- <script src="try.js"></script> -->
+</body>
+</html>

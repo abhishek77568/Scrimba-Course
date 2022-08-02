@@ -1,9 +1,12 @@
+$bg_color: #EEEEEE;
+
+
 body{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     display: grid;
-    background-color: #EEEEEE;
+    background-color: $bg_color;
     grid-template-columns: 100%;
     grid-template-rows: 56px 723px 74px;
 }
@@ -84,44 +87,22 @@ header{
     height: 100%;
     display: flex;
     align-items: center;
-    background-color: #1F7A54;
 }
 .alert{
     width: 28px;
     height: 33px;
     display: flex;
-    position: relative;
 
-}
-.number_of_notification{
-    
-    width: 17px;
-    height: 21px;
-    background-color: #2A7FF3;
-    font-size: 12px;
-    color: #FFFFFF;
-    font-family: 'Quicksand',sans-serif;
-    font-weight: 500;
-    border-radius: 50%;
-    letter-spacing: -0.5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .alert_img{
     margin-top: 5px;
     width: 21px;
     height: 24px;
 }
-.alert-notification{
-    position: absolute;
-    top: 0px;
-    right:0px;
-}
 
 .announcement{
     margin-top: 5px;
-    position: relative;
+
     margin-left: 25px;
     width: 31px;
     height: 31px;
@@ -130,11 +111,6 @@ header{
     width: 20px;
     height: 20px;
 }
-.announcement-notification{
-    position: absolute;
-    top: 0px;
-    right:0px;
-}
 .profile{
     margin-left: 21px;
     width: 35px;
@@ -142,16 +118,10 @@ header{
 }
 
 .profile_icon{
-    position: relative;
     width: 32px;
     height: 32px;
 }
-.profile-notification{
-    position: absolute;
-    top: 0px;
-    right:0px;
-    z-index: 1;
-}
+
 main{
     grid-column: 1/-1;
     grid-row: 2/3;    

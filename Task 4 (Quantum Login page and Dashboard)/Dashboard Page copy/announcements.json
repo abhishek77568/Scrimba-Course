@@ -1,0 +1,47 @@
+[
+{
+    "status":"checked",
+    "PA":"Wilson Kumar",
+    "announcement":"No classes will be held on 21st Nov",
+    "Course":["none",""],
+    "Attached_file":["block","2"],
+    "date_and_time":"15-Sep-2018 at 07:21 pm"
+},
+
+{
+    "status":"unchecked",
+    "PA":"Samson White",
+    "announcement":"Guest lecture on Geometry on 20th September",
+    "Course":["none",""],
+    "Attached_file":["block","2"],
+    "date_and_time":"15-Sep-2018 at 07:21 pm"
+},
+
+{
+    "status":"checked",
+    "PA":"Wilson Kumar",
+    "announcement":"Additional course materials available on request",
+    "Course":["block","Mathematics 101"],
+    "Attached_file":["none",""],
+    "date_and_time":"15-Sep-2018 at 07:21 pm"
+},
+
+{
+    "status":"unchecked",
+    "PA":"Wilson Kumar",
+    "announcement":"No classes will be held on 25th Dec",
+    "Course":["none",""],
+    "Attached_file":["none",""],
+    "date_and_time":"15-Sep-2018 at 07:21 pm"
+},
+
+{
+    "status":"unchecked",
+    "PA":"Wilson Kumar",
+    "announcement":"Additional course materials available on request",
+    "Course":["block","Mathematics 101"],
+    "Attached_file":["block","2"],
+    "date_and_time":"15-Sep-2018 at 07:21 pm"
+}
+
+]

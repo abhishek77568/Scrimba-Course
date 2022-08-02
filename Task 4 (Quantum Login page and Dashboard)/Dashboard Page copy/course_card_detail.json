@@ -1,0 +1,102 @@
+[
+    {
+    "img":"images/images/imageMask-1.svg",
+    "course_name":"Acceleration",
+    "grade_detail":
+        {
+            "subject":"Physics",
+            "no_of_grade":7,
+            "grade_increment":2
+        },
+    "course_distribution_detail":
+        {
+            "unit":4,
+            "lesson":18,
+            "topic":24
+        },
+    "select_class":
+        {
+            "option":"Mr. Frank's Class B"
+        },
+    "student_and_validity":
+        {
+            "student":50,
+            "validity":"21-Jan-2020 - 21-Aug-2020"
+        }
+    },
+
+    {
+        "img":"images/images/imageMask-2.svg",
+        "course_name":"Displacement, Velocity and Speed",
+        "grade_detail":
+            {
+                "subject":"Physics 2",
+                "no_of_grade":6,
+                "grade_increment":3
+            },
+        "course_distribution_detail":
+            {
+                "unit":2,
+                "lesson":15,
+                "topic":20
+            },
+        "select_class":
+            {
+                "option":"No Classes"
+            }       
+    },
+
+    {
+        "img":"images/images/imageMask.svg",
+        "course_name":"Introduction to Biology: Micro <br>organisms and how they affec...",
+        "grade_detail":
+            {
+                "subject":"Biology",
+                "no_of_grade":4,
+                "grade_increment":1
+            },
+        "course_distribution_detail":
+            {
+                "unit":5,
+                "lesson":6,
+                "topic":22
+            },
+        "select_class":
+            {
+                "option":"All Classes"
+            } ,
+        "student_and_validity":
+            {
+                "student":300,
+                "validity":""
+            }     
+    },
+
+    {
+        "img":"images/images/imageMask-3.svg",
+        "course_name":"Introduction to High School<br> Mathematics",
+        "grade_detail":
+            {
+                "subject":"Mathematics",
+                "no_of_grade":8,
+                "grade_increment":3
+            },
+        "course_distribution_detail":
+            {
+                "unit":4,
+                "lesson":18,
+                "topic":24
+            },
+        "select_class":
+            {
+                "option":"Mr. Frank's Class A"
+            } ,
+        "student_and_validity":
+            {
+                "student":50,
+                "validity":"14-Oct-2019 - 20-Oct-2020"
+            }     
+    }
+
+
+]

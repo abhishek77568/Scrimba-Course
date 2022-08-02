@@ -1,0 +1,1 @@
+// const response=fetch('./course_card_detail.json').then(response=>response.json()).then(detail=>console.log(detail[1]))

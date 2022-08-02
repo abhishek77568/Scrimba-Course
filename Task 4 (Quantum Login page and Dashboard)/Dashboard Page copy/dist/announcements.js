@@ -1,0 +1,11 @@
+fetch('./announcements.json').then(function (response) { return response.json(); }).then(function (data) {
+    console.log(data);
+    var hover_div = document.getElementsByClassName("announcements_content_wrapper")[0];
+    for (var i = 0; i < data.length; i++) {
+        var div_new = document.createElement("div");
+        div_new.setAttribute("class", "announcements_content_" + data[i].status);
+        hover_div.appendChild(div_new);
+        var announcements = "<div class=\"announcements_content_" + data[i].status + "_container\">\n        <div class=\"PA_wrapper_" + data[i].status + "\">\n            <div class=\"PA\"><span class=\"font_gray\"> PA:</span> <span class=\"PA_name\"><b>" + data[i].PA + "</b></span></div>\n            <div class=\"" + data[i].status + "_icon_wrapper\"><span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" \n                fill=\"currentColor\" class=\"bi bi-check-lg\" viewBox=\"0 0 16 16\">\n                <path d=\"M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 \n                9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 \n                2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z\"/>\n                </svg></span><span><div class=\"" + data[i].status + "_icon_minus\"></div></span>\n            </div>\n        </div>\n\n        <div class=\"announcements_text\">\n            <b>" + data[i].announcement + "</b>\n            <span style=\"display:" + data[i].Course[0] + ";\"class=\"announcement_course_div\"><div class=\"announcement_content_course_wrapper font_gray\">Course: <span class=\"announcement_content_course\">" + data[i].Course[1] + "</span></div></span>\n        </div>\n        \n        <div class=\"file_attached_and_announcement_time_wrapper font_gray\">\n            <div style=\"display:" + data[i].Attached_file[0] + "\"class=\"file_attached \">&#128206; <span class=\"no_of_file_attached\">" + data[i].Attached_file[1] + "</span> file are attached</div>\n            <div class=\"announcement_date_and_time \"><span class=\"announcement_date\">" + data[i].date_and_time + "</span></div>\n        </div>\n    </div> ";
+        div_new.innerHTML = announcements;
+    }
+});
